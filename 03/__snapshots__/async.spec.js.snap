@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ajax: get should return data from backend 1`] = `
+Object {
+  "todos": Array [
+    Object {
+      "completed": false,
+      "id": 1,
+      "title": "todo 1 ",
+    },
+  ],
+}
+`;
