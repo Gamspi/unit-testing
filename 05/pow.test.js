@@ -8,7 +8,7 @@ describe('test pow', () => {
 	test('current calls function Math.pow', () => {
 		const spyMathPow = jest.spyOn(Math, 'pow')
 		pow([1, 2, 3])
-		expect(spyMathPow).toBeCalledTimes(2)
+		expect(spyMathPow).toBeCalledTimes(3)
 	})
 
 	test('current calls function Math.pow', () => {

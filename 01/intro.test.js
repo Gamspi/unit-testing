@@ -2,7 +2,7 @@ const {sum, nativeNull} = require('./intro')
 describe('sum function', ()=>{
 
 	test('Sum test', () => {
-		expect(sum(1, 2)).toBe(3) // для приметивных типов
+		expect(sum(1, 2)).toBe(3) // для примитивных типов
 		expect(sum(1, 2)).toEqual(3)
 	})
 
@@ -25,8 +25,8 @@ describe('null', ()=>{
 		expect(nativeNull()).toBeNull()
 		expect(nativeNull()).toBeFalsy() // undefined null 0 '' false
 		expect(nativeNull()).toBeDefined() // определен
-		expect(nativeNull()).not.toBeTruthy() // определен
-		expect(nativeNull()).not.toBeUndefined() // определен
+		expect(nativeNull()).not.toBeTruthy() // true
+		expect(nativeNull()).not.toBeUndefined() // undefined
 	})
 })
 
