@@ -5,7 +5,7 @@ describe('test function bigNumber ', ()=>{
 
 	test('test number center value',()=>{
 		// expect - ожидание
-		expect(bigNumber(50)).toBe(true)
+		expect(bigNumber(50)).toBe(false)
 		expect(bigNumber(50)).toBeTruthy()
 	})
 	test('test number = 0',()=>{
